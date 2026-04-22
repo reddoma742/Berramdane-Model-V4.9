@@ -1,3 +1,41 @@
+# Berramdane Model V5.6 - Mechanical Sub-Quantum Interpretation
+
+This repository contains the official Python implementation of the **Berramdane Model (V5.6)**. This model offers a mechanical, sub-quantum interpretation of wave-particle duality, specifically focusing on the double-slit experiment and quantum tunneling.
+
+## 🚀 Overview
+[span_0](start_span)[span_1](start_span)The Berramdane Model V5.6 moves away from abstract probability waves towards a **deterministic mechanical framework**[span_0](end_span)[span_1](end_span). It proposes that:
+- **[span_2](start_span)[span_3](start_span)Helical Trajectories:** Particles follow helical paths influenced by spin and velocity[span_2](end_span)[span_3](end_span).
+- **[span_4](start_span)[span_5](start_span)Edge Interaction:** The interference pattern is a result of particles interacting with slit edges, creating cone-shaped wavefronts[span_4](end_span)[span_5](end_span).
+- **[span_6](start_span)[span_7](start_span)Mechanical Tunneling:** Tunneling is explained via a "Drill Effect" ($D_{factor}$) where the particle's spin frequency assists in barrier penetration[span_6](end_span)[span_7](end_span).
+- **[span_8](start_span)[span_9](start_span)Predictive Accuracy:** The model matches standard Fraunhofer peak spacing and predicts tunneling rates for non-relativistic electrons within 0.6% of standard QM results[span_8](end_span)[span_9](end_span).
+
+## 🛠 Features in V5.6
+- **[span_10](start_span)[span_11](start_span)Fraunhofer Spacing Fix:** Corrected the spacing formula to `lam * L / d_slit` for exact alignment with optical theory[span_10](end_span)[span_11](end_span).
+- **[span_12](start_span)[span_13](start_span)Angle-Driven Cones:** Peak generation is now fully predictive based on the diffraction angle[span_12](end_span)[span_13](end_span).
+- **[span_14](start_span)[span_15](start_span)Maturity Factor:** Includes a focus distance ($L_{focus}$) where the pattern "matures" as it travels[span_14](end_span)[span_15](end_span).
+- **[span_16](start_span)[span_17](start_span)Observer Effect:** A mechanical damping mask simulates the interaction of an observer at the slit[span_16](end_span)[span_17](end_span).
+
+## 💻 How to Run
+1. Ensure you have Python installed.
+2. Install dependencies: `pip install numpy matplotlib`.
+3. Run the script: `python berramdane_v5_6.py`.
+
+## 📊 Results
+The simulation generates four key plots:
+1. **1D Interference Pattern:** Showing the predicted peaks and visibility.
+2. **2D Screen View:** A realistic visual of the fringes.
+3. **Tunneling vs. Density:** Demonstrating the mechanical "drill" threshold.
+4. **Exponential Decay:** Verifying consistency with Gamow’s law.
+
+## 📜 Authors & Acknowledgments
+- **Lead Developer:** Al Moalim Berramdane (Workshop Owner & IT Technician)
+- **[span_18](start_span)Technical Support:** AI Collaborators (DeepSeek, Gemini, Claude)[span_18](end_span)
+
+## ⚖️ License
+- **Code:** MIT License
+- **Documentation/Theory:** CC BY 4.0
+
+
 README.md (Version 5.3)
 ​Berramdane Model V5.3 – First‑Principles Mechanical Interpretation
 ​A deterministic mechanical approach to Quantum Phenomena
