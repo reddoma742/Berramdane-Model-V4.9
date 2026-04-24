@@ -3,8 +3,8 @@
 
 **Author:** Al Moalim Berramdane  
 **License:** CC BY 4.0 (see LICENSE file)  
-**GitHub:** [https://github.com/your-username/Berramdane_Model_V5.9](https://github.com/your-username/Berramdane_Model_V5.9)
-
+**GitHub:** 
+https://github.com/reddoma742/Berramdane-Model-V4.9.git
 ---
 
 ## Overview
