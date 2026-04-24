@@ -1,3 +1,49 @@
+
+# Berramdane Model V5.9 – Interlocking Cones (A Mechanical Analogy for Quantum Phenomena)
+
+**Author:** Al Moalim Berramdane  
+**License:** CC BY 4.0 (see LICENSE file)  
+**GitHub:** [https://github.com/your-username/Berramdane_Model_V5.9](https://github.com/your-username/Berramdane_Model_V5.9)
+
+---
+
+## Overview
+
+This repository contains the **Berramdane Model V5.9**, a mechanical interpretation of the double‑slit experiment, the observer effect, the de Broglie relation, and tunneling.  
+Instead of using wave‑probability, the model assumes:
+
+- Particles are spinning points moving forward (helical path).
+- Friction with slit edges generates a **transverse velocity**, turning the helical path into **conical wavefronts**.
+- Interference is not a wave superposition but a **mechanical engagement (interlocking) of cones** coming from both slits.
+- The observer effect is simulated as **asymmetric damping** (a simplified approximation).
+- Tunneling is described by a **Gamow factor** (from standard quantum mechanics) multiplied by a **drill factor** `tanh(ω_spin/ω_Compton)`, where `ω_Compton = mc²/ħ`.
+
+The code produces a **7‑peak interference pattern** with high fringe visibility (~99%), a 2D real‑screen view, and a numerical report with the model’s limitations explicitly stated.
+
+---
+
+## Features
+
+- ✅ **Double‑slit pattern** – 7 visible peaks, symmetric (observer off) or asymmetric damping (observer on).
+- ✅ **Dynamic peak count** – number of peaks depends on slit geometry and velocity.
+- ✅ **de Broglie relation** – `λ = h/(mv)` emerges from helix properties.
+- ✅ **Tunneling prediction** – for 1 eV electrons through 2 nm SiO₂, the model predicts a rate ~1600× lower than standard QM (`D = 6.4×10⁻⁴`).
+- ✅ **Real‑screen view** – vertical fringes (2D image).
+- ✅ **Acknowledged limitations** – local model (S=2), hybrid tunneling, simplified observer effect.
+
+---
+
+## Requirements
+
+- Python 3.8 or higher
+- `numpy`
+- `matplotlib`
+
+Install dependencies using:
+
+```bash
+pip install numpy matplotlib
+
 # Berramdane Model V5.6 - Mechanical Sub-Quantum Interpretation
 
 This repository contains the official Python implementation of the **Berramdane Model (V5.6)**. This model offers a mechanical, sub-quantum interpretation of wave-particle duality, specifically focusing on the double-slit experiment and quantum tunneling.
